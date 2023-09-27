@@ -1,0 +1,102 @@
+
+
+#contact{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto 2rem;
+    }
+    .contactHead h1{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #b0ac3b;
+        position: relative;
+        margin-bottom: 5rem;
+    }
+    .contactHead h1::before{
+        content: '';
+        height: 2px;
+        width: 39%;
+        position: absolute;
+        bottom: -10px;
+        transform: translateX(-50%);
+        left: 50%;
+        background: #b0ac3b;
+    }
+    .contactHead h1::after{
+        content: '';
+        height: 2px;
+        width: 60%;
+        position: absolute;
+        bottom: 2px;
+        transform: translateX(-50%);
+        left: 50%;
+        background: #b0ac3b;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        max-width: 60rem;
+        margin: 1rem auto;
+    }
+    input, textarea{
+        border: 1px solid #b0ac3b;
+        background:rgb(40, 40, 40);
+        margin: 10px 0 ;
+        width: 100%;
+        padding: 20px;
+        color: white;
+        outline: none;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        max-width: 40rem;
+      
+    }
+    
+    .form-btn{
+        border-radius: 10px;
+        border: 2px solid #b0ac3b;
+        background-color:black;
+        width: 100%;
+        max-width: 40rem;
+        outline: none;
+        padding: 20px;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all .5s ease-in;
+    }
+    
+    .form-btn:hover{
+    border: 2px solid #191414;
+        background-color: #b0ac3b;
+        color:black;
+    }
+    .social{
+        display: flex;
+        list-style: none;
+        padding: 2rem 2rem;
+    }
+    .social a{
+        text-decoration: none;
+        font-size: 3rem;
+        color: #b0ac3b;
+        margin-left: 1rem;
+    } 
+    .social li:last-child{
+        line-height: 4rem;
+        color:#b0ac3b;
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+
+    @media screen and (max-width: 800px){
+       
+    
+    }

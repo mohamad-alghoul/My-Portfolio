@@ -1,0 +1,12 @@
+footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background: #b0ac3b;;
+    
+}
+.footerPara{
+    font-size: 1rem;
+    color: black;
+}

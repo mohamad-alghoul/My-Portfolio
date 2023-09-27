@@ -1,0 +1,90 @@
+#about{
+overflow: hidden;
+width: 100vw;
+max-width: 75rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 4rem auto 2rem;
+}
+.aboutHead{
+    margin-bottom: 3rem;
+}
+.aboutHead h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #b0ac3b;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.aboutHead h1::before {
+    content: '';
+    height: 2px;
+    width: 39%;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #b0ac3b;
+}
+.aboutHead h1::after {
+    content: '';
+    height: 2px;
+    width: 60%;
+    position: absolute;
+    bottom: 2px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #b0ac3b;
+}
+.aboutHead p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.skillsBars{
+    margin: 1.5rem;
+    text-align: left;
+}
+.skillsBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: rgb(50,50, 50);
+    border-radius: 8px;
+}
+.skillsBar img{
+    object-fit: cover;
+    height: 7rem;
+    margin-right: 2rem;
+
+}
+.skillsBar h3 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+.skillsBar p{
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 800px){
+    .aboutHead p{
+        padding: 1rem;
+    }.skillsBar{
+        flex-direction: column;
+        padding:1rem 1rem ;
+    }.skillsBar img{
+        height: 3rem;
+        width: 3rem;   
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .skillsBars{
+        margin: .5rem;
+       
+    }
+}

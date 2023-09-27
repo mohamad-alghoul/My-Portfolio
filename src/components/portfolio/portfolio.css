@@ -1,0 +1,74 @@
+#portfolio{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 4rem auto 2rem;
+    }
+.portHead h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #b0ac3b;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.portHead h1::before{
+    content: '';
+        height: 2px;
+        width: 39%;
+        position: absolute;
+        bottom: -10px;
+        transform: translateX(-50%);
+        left: 50%;
+        background: #b0ac3b;
+}
+.portHead h1::after{
+    content: '';
+    height: 2px;
+    width: 60%;
+    position: absolute;
+    bottom: 2px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #b0ac3b;
+}
+.portBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 50px;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.portItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    background-color: rgb(50,50, 50);
+    transition: all .4s linear;
+}
+.portItem img{
+    height:400px;
+    width: 300px;
+}
+.infoPorto h2{
+    margin-top: 40px;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 30px;;
+}
+.portItem a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: black;
+    background-color: #b0ac3b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   transition: all .3s linear;
+}
+.infoPorto a:hover{
+color:#b0ac3b;
+background: black;
+}

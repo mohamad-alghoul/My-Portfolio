@@ -1,0 +1,73 @@
+#services{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 4rem auto 2rem;
+    }
+    .ServicesHead h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #b0ac3b;
+        position: relative;
+        margin-bottom: 5rem;
+    }
+    .ServicesHead h1::before {
+        content: '';
+        height: 2px;
+        width: 39%;
+        position: absolute;
+        bottom: -10px;
+        transform: translateX(-50%);
+        left: 50%;
+        background: #b0ac3b;
+    }
+    .ServicesHead h1::after {
+        content: '';
+        height: 2px;
+        width: 60%;
+        position: absolute;
+        bottom: 2px;
+        transform: translateX(-50%);
+        left: 50%;
+        background: #b0ac3b;
+    }
+    .servicesBox{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 50px;
+         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .servItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 2rem;
+        background-color: rgb(50,50, 50);
+        transition: all .4s linear;
+    }
+    .servItem:hover .servIcon{
+        color: #b0ac3b;
+        transform: scale(1.3);
+    }  
+    .servItem:hover{
+        transform: scale(1.1); 
+    }
+    .servItem .servIcon{
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+    .servItem h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+   .servItem p{
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+   }
+   @media screen and (max-width: 800px){
+    .servicesBox{
+        padding: 1rem;
+    }
+   }
