@@ -2,7 +2,6 @@ import React from "react";
 import ui from "./assets/ui-design.png"
 import web from "./assets/website-design.png"
 import app from "./assets/app-design.png"
-import { Link } from 'react-scroll';
 import {AiOutlineMobile,AiOutlineColumnWidth,
   AiFillFormatPainter,AiFillEdit,AiOutlineCloseCircle,AiOutlineDollar} from "react-icons/ai"
 import Portfolio1 from "./assets/portfolio-2.png";
