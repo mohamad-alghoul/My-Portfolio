@@ -85,12 +85,12 @@ export const portfolio = [
   {
     img:Portfolio1,
     name:" LinkedIn-clone",
-    url:" https://mohamad-alghoul.github.io/linkedin-clone/"
+    url:" https://vercel.com/mo2888/linkedin-copy"
   },
   {
     img:Portfolio2,
     name:"Alghoul-Shop",
-    url:"https://mohamad-alghoul.github.io/Alghoul-Shop/"
+    url:"https://vercel.com/mo2888/alghoul-shop"
   },
   {
     img:Portfolio3,
