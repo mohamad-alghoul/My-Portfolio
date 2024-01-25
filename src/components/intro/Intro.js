@@ -3,7 +3,7 @@ import React from 'react'
 import './intro.css'
 import my from "../../assets/image.png"
 import btnHire from "../../assets/hireme.png"
-import cv from "/Users/test/Desktop/GetHub/my-portfolio/src/assets/cv"
+import cv from "../../assets/cv.pdf"
 
 
 
