@@ -32,8 +32,8 @@ const Contact = () => {
             <button className='form-btn' type="submit">Send</button>
         </form>
         <ul className='social'>
-            <li><a href='https://github.com/Mo2888'><AiFillGithub/></a></li>
-             <li><a href='https://www.linkedin.com/in/mohamad-alghoul-6abaa4285'><AiFillLinkedin/></a></li>
+            <li><a href='https://github.com/mohamad-alghoul/'><AiFillGithub/></a></li>
+             <li><a href='https://www.linkedin.com/in/mohamad-alghoul/'><AiFillLinkedin/></a></li>
             <li><AiOutlineLeft /> <span>...check more</span></li>
         </ul>
         </div>

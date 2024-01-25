@@ -84,18 +84,18 @@ export const services = [
 export const portfolio = [
   {
     img:Portfolio1,
-    name:"Template 1",
-    url:" https://mo2888.github.io/template-1/ "
+    name:" LinkedIn-clone",
+    url:" https://mohamad-alghoul.github.io/linkedin-clone/"
   },
   {
     img:Portfolio2,
-    name:"Template 2 ",
-    url:"https://mo2888.github.io/template-2/"
+    name:"Alghoul-Shop",
+    url:"https://mohamad-alghoul.github.io/Alghoul-Shop/"
   },
   {
     img:Portfolio3,
-    name:"Keeper App",
-    url:" https://mo2888.github.io/keeper-app/"
+    name:" HTML_CSS Template",
+    url:" https://mohamad-alghoul.github.io/template-3/"
   }
 ]
 
